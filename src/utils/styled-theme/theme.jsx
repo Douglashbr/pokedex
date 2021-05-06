@@ -9,7 +9,7 @@ const theme = {
   flying: '#7DA6DE',
   ghost: '#846AB6',
   grass: '#71C558',
-  groud: '#CC9F4F',
+  ground: '#CC9F4F',
   ice: '#70CBD4',
   normal: '#AAB09F',
   poison: '#B468B7',

@@ -1,16 +1,6 @@
 import styled from 'styled-components'
 import { darken } from 'polished'
 
-export const CardContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 414px;
-  margin: auto;
-  padding: 0 20px
-`
-
 export const Card = styled.div`
   background: url(${props => props.bgImage && props.bgImage}) ${props => props.bgColor && props.bgColor};
   background-position: calc(100% + 20px) calc(100% + 20px);
