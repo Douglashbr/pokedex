@@ -1,7 +1,9 @@
+import PokeCard from '../../components/PokeCard'
+
 const Home = () => {
   return (
     <div>
-      Home
+      <PokeCard />
     </div>
   )
 }
