@@ -13,6 +13,7 @@ export const Card = styled.div`
   min-height: 100px;
   padding: 10px 12px;
   margin-bottom: 15px;
+  cursor: pointer;
 `
 
 export const NumLabel = styled.span`

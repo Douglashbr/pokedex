@@ -1,8 +1,8 @@
 import { Container } from './style'
 
-const MainContainer = ({ children }) => {
+const MainContainer = ({ children, bgColor }) => {
   return (
-    <Container>
+    <Container bgColor={bgColor}>
       {children}
     </Container>
   )

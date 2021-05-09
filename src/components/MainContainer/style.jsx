@@ -5,6 +5,6 @@ export const Container = styled.div`
   max-width: 414px;
   padding: 20px;
   margin: 20px auto;
-  background-color: #ffffff;
+  background-color: ${props => props.bgColor && props.bgColor};
   border-radius: 20px;
 `

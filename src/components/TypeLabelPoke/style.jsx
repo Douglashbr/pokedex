@@ -10,5 +10,6 @@ export const TypeLabel = styled.span`
   font-size: .714rem;
   font-weight: 900;
   margin-bottom: 5px;
+  margin-right: 5px;
   width: fit-content;
 `
